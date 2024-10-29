@@ -1,0 +1,60 @@
+body {
+    background-color: #cee7f7;
+    font-family: Arial, sans-serif;
+    color: #048fec;
+    width: 100%; /* Ajusta el ancho del body al 100% */
+    box-sizing: border-box; /* Incluye el border y padding en el ancho y alto del elemento */
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #888888;
+    padding: 20px;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    color: #000;
+    font-size: 16px; /* Ajusta el tamaño de fuente a 16px */
+    padding: 0px; /* Ajusta el padding interno de la card a 10px */
+}
+
+.card-header {
+      /*background-color: #2E2F30;*/
+      background-color: #048fec;
+      color: #fff;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      padding: 10px 20px;
+      font-weight: bold;
+}
+
+.seccion {
+position: relative;
+}
+
+.elemento {
+position: relative;
+top: 50px;
+left: 20px;
+}
+
+#toggle-theme {
+position: fixed;
+bottom: 20px;
+right: 20px;
+z-index: 1000;
+padding: 10px;
+font-size: 16px;
+border: none;
+border-radius: 4px;
+color: #fff;
+background-color: #007bff;
+cursor: pointer;
+}
+.dark-mode {
+background-color: #222;
+color: #fff;
+}
+input[readonly] {
+background-color: red;
+}
